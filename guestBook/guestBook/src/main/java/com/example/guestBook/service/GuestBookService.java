@@ -34,6 +34,10 @@ public class GuestBookService {
     }
 
     // 방명록의 ID 받은 뒤 db에서 삭제
+    public void delete(Long id) {
+        guestBookRepository.deleteById(id);
+    }
+
     @DeleteMapping("/api/guestbook/{id}")
     public ResponseEntity<Void> deleteArticle(@PathVariable long id) {
         guestBookRepository.deleteById(id);

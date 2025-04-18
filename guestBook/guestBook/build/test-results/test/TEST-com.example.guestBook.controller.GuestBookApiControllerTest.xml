@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.guestBook.controller.GuestBookApiControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-04-17T08:10:54.242Z" hostname="DESKTOP-CQOIMVM" time="1.389">
+<testsuite name="com.example.guestBook.controller.GuestBookApiControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-04-18T00:58:43.099Z" hostname="DESKTOP-CQOIMVM" time="1.844">
   <properties/>
-  <testcase name="deleteArticle: 방명록 글 삭제 성공" classname="com.example.guestBook.controller.GuestBookApiControllerTest" time="1.066"/>
-  <testcase name="findArticle: 방명록 글 조회 성공" classname="com.example.guestBook.controller.GuestBookApiControllerTest" time="0.106"/>
-  <testcase name="findAllArticles: 방명록 글 목록 조회 성공" classname="com.example.guestBook.controller.GuestBookApiControllerTest" time="0.044"/>
-  <testcase name="addArticle: 방명록 추가 성공" classname="com.example.guestBook.controller.GuestBookApiControllerTest" time="0.081"/>
-  <testcase name="updateArticle: 블로그 글 수정 성공" classname="com.example.guestBook.controller.GuestBookApiControllerTest" time="0.08"/>
-  <system-out><![CDATA[17:10:48.925 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.guestBook.controller.GuestBookApiControllerTest]: GuestBookApiControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:10:49.092 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.guestBook.GuestBookApplication for test class com.example.guestBook.controller.GuestBookApiControllerTest
+  <testcase name="deleteArticle: 방명록 글 삭제 성공" classname="com.example.guestBook.controller.GuestBookApiControllerTest" time="1.197"/>
+  <testcase name="findArticle: 방명록 글 조회 성공" classname="com.example.guestBook.controller.GuestBookApiControllerTest" time="0.206"/>
+  <testcase name="findAllArticles: 방명록 글 목록 조회 성공" classname="com.example.guestBook.controller.GuestBookApiControllerTest" time="0.126"/>
+  <testcase name="addArticle: 방명록 추가 성공" classname="com.example.guestBook.controller.GuestBookApiControllerTest" time="0.099"/>
+  <testcase name="updateArticle: 블로그 글 수정 성공" classname="com.example.guestBook.controller.GuestBookApiControllerTest" time="0.204"/>
+  <system-out><![CDATA[09:58:38.043 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.guestBook.controller.GuestBookApiControllerTest]: GuestBookApiControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:58:38.229 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.guestBook.GuestBookApplication for test class com.example.guestBook.controller.GuestBookApiControllerTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -18,18 +18,18 @@
 
  :: Spring Boot ::                (v3.4.4)
 
-2025-04-17T17:10:49.597+09:00  INFO 1944 --- [guestBook] [    Test worker] c.e.g.c.GuestBookApiControllerTest       : Starting GuestBookApiControllerTest using Java 17.0.14 with PID 1944 (started by 402 in G:\my_boot\guestBook\guestBook)
-2025-04-17T17:10:49.602+09:00  INFO 1944 --- [guestBook] [    Test worker] c.e.g.c.GuestBookApiControllerTest       : No active profile set, falling back to 1 default profile: "default"
-2025-04-17T17:10:50.463+09:00  INFO 1944 --- [guestBook] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-17T17:10:50.547+09:00  INFO 1944 --- [guestBook] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
-2025-04-17T17:10:51.099+09:00  INFO 1944 --- [guestBook] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-17T17:10:51.309+09:00  INFO 1944 --- [guestBook] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@149aa7b2
-2025-04-17T17:10:51.312+09:00  INFO 1944 --- [guestBook] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-17T17:10:51.438+09:00  INFO 1944 --- [guestBook] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-17T17:10:51.510+09:00  INFO 1944 --- [guestBook] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-17T17:10:51.565+09:00  INFO 1944 --- [guestBook] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-17T17:10:52.025+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-17T17:10:52.146+09:00  INFO 1944 --- [guestBook] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-18T09:58:38.742+09:00  INFO 2944 --- [guestBook] [    Test worker] c.e.g.c.GuestBookApiControllerTest       : Starting GuestBookApiControllerTest using Java 17.0.14 with PID 2944 (started by 402 in G:\my_boot\guestBook\guestBook)
+2025-04-18T09:58:38.744+09:00  INFO 2944 --- [guestBook] [    Test worker] c.e.g.c.GuestBookApiControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2025-04-18T09:58:39.643+09:00  INFO 2944 --- [guestBook] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-18T09:58:39.712+09:00  INFO 2944 --- [guestBook] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2025-04-18T09:58:40.243+09:00  INFO 2944 --- [guestBook] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-18T09:58:40.309+09:00  INFO 2944 --- [guestBook] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-18T09:58:40.351+09:00  INFO 2944 --- [guestBook] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-18T09:58:40.688+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-18T09:58:40.725+09:00  INFO 2944 --- [guestBook] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-18T09:58:40.908+09:00  INFO 2944 --- [guestBook] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@533e2f4
+2025-04-18T09:58:40.910+09:00  INFO 2944 --- [guestBook] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-18T09:58:41.003+09:00  INFO 2944 --- [guestBook] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.4.4
@@ -37,16 +37,16 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-17T17:10:53.119+09:00  INFO 1944 --- [guestBook] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-17T17:10:53.172+09:00  INFO 1944 --- [guestBook] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-17T17:10:53.691+09:00  WARN 1944 --- [guestBook] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-17T17:10:54.183+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-04-17T17:10:54.185+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-04-17T17:10:54.188+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2025-04-17T17:10:54.226+09:00  INFO 1944 --- [guestBook] [    Test worker] c.e.g.c.GuestBookApiControllerTest       : Started GuestBookApiControllerTest in 4.959 seconds (process running for 6.566)
-2025-04-17T17:10:54.810+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-04-17T17:10:54.811+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-04-17T17:10:54.813+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-04-18T09:58:41.872+09:00  INFO 2944 --- [guestBook] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-18T09:58:41.930+09:00  INFO 2944 --- [guestBook] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-18T09:58:42.441+09:00  WARN 2944 --- [guestBook] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-18T09:58:43.028+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-04-18T09:58:43.029+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-04-18T09:58:43.032+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-04-18T09:58:43.080+09:00  INFO 2944 --- [guestBook] [    Test worker] c.e.g.c.GuestBookApiControllerTest       : Started GuestBookApiControllerTest in 4.68 seconds (process running for 6.357)
+2025-04-18T09:58:43.715+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-04-18T09:58:43.715+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-04-18T09:58:43.716+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 Hibernate: 
     select
         a1_0.id,
@@ -56,6 +56,24 @@ Hibernate:
         a1_0.updated_at 
     from
         guestbook a1_0
+Hibernate: 
+    delete 
+    from
+        guestbook 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        guestbook 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        guestbook 
+    where
+        id=?
 Hibernate: 
     insert 
     into
@@ -89,9 +107,9 @@ Hibernate:
         a1_0.updated_at 
     from
         guestbook a1_0
-2025-04-17T17:10:55.315+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-04-17T17:10:55.316+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-04-17T17:10:55.318+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-04-18T09:58:44.303+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-04-18T09:58:44.306+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-04-18T09:58:44.307+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
 Hibernate: 
     select
         a1_0.id,
@@ -119,9 +137,9 @@ Hibernate:
         guestbook a1_0 
     where
         a1_0.id=?
-2025-04-17T17:10:55.424+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-04-17T17:10:55.425+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-04-17T17:10:55.426+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-04-18T09:58:44.515+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-04-18T09:58:44.516+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-04-18T09:58:44.519+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 Hibernate: 
     select
         a1_0.id,
@@ -153,9 +171,9 @@ Hibernate:
         a1_0.updated_at 
     from
         guestbook a1_0
-2025-04-17T17:10:55.470+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-04-17T17:10:55.470+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-04-17T17:10:55.473+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-04-18T09:58:44.639+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-04-18T09:58:44.642+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-04-18T09:58:44.645+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
 Hibernate: 
     select
         a1_0.id,
@@ -187,9 +205,9 @@ Hibernate:
         a1_0.updated_at 
     from
         guestbook a1_0
-2025-04-17T17:10:55.554+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-04-17T17:10:55.555+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-04-17T17:10:55.558+09:00  INFO 1944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-04-18T09:58:44.748+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-04-18T09:58:44.749+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-04-18T09:58:44.750+09:00  INFO 2944 --- [guestBook] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 Hibernate: 
     select
         a1_0.id,
